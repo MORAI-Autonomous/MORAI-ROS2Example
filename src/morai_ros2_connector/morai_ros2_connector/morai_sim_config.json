@@ -111,7 +111,7 @@
 		"GPSList": [
 			{
 					"m_TargetUniqueID": 0,
-					"m_SensorUniqueID": 1,
+					"m_SensorUniqueID": 2,
 					"m_SensorType": 1,
 					"m_FrameRate": 60.0,
 					"ros2Config": {
@@ -128,7 +128,7 @@
 		"IMUList": [
 			{
 					"m_TargetUniqueID": 0,
-					"m_SensorUniqueID": 2,
+					"m_SensorUniqueID": 3,
 					"m_SensorType": 1,
 					"m_FrameRate": 60.0,
 					"ros2Config": {
