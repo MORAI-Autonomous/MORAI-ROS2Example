@@ -8,7 +8,7 @@ from std_msgs.msg import Header
 class PubInsnControl(Node):
     def __init__(self):
         super().__init__("IntsnControl")
-        self.topic = '/IntsnControl'
+        self.topic = '/InsnControl'
         self.publisher_ = self.create_publisher(IntersectionControl, self.topic, 10)
   
     def publish_msg(self, param):
