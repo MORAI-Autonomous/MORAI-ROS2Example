@@ -21,7 +21,7 @@ This example contains the below list.
 # Installation
 ```
 $ mkdir ~/ws_morai_sim_example
-$ cd ~/ws_morai_example
+$ cd ~/ws_morai_sim_example
 $ git clone -b ros2-eloquent https://github.com/MORAI-Autonomous/MORAI-ROS2Example.git
 $ source /opt/ros/eloquent/setup.bash
 $ colcon build
