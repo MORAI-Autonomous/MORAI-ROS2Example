@@ -4,13 +4,11 @@ package_name = 'morai_sim_examples'
 clients = 'morai_sim_examples/clients/'
 publishers = 'morai_sim_examples/publishers/'
 subscribers = 'morai_sim_examples/subscribers/'
-test_base = 'test_base/'
-test_morai_sim = 'test_morai_sim/'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name, clients, publishers, subscribers, test_base, test_morai_sim],
+    packages=[package_name, clients, publishers, subscribers],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
